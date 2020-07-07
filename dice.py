@@ -1,9 +1,10 @@
+from random import randint
+
 class Dice:
     def __init__(self, sides=6):
         self.sides = sides
 
     def roll_dice(self):
-        from random import randint
         if self.sides == 6:
             print(randint(1, 6))
         elif self.sides == 10:
