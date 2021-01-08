@@ -1,0 +1,117 @@
+/* font-family: 'Jura', sans-serif; */
+/* font-family: 'Exo 2', sans-serif; */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    box-sizing: border-box;
+    caret-color: transparent;
+}
+    
+h1, h2, h3 {
+    padding: 0;
+    margin: 0;  
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
+        text-align: center;
+        font-size: 56px;
+        font-weight: 900;
+        padding-top: 50px;
+        margin-bottom: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(21, 104, 182, 0), rgba(31, 31, 129, 1), rgba(0, 0, 0, 0));
+}
+
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container-fluid {
+    max-width: 100%;
+}
+
+.container-medium {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px 50px 20px;
+}
+
+.constructor__header {
+    height: 400px;
+    background-image: url('../img/header/header_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .constructor__header .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     min-height: 100%;
+  }
+.construcotr__header-wrapper {
+}
+.constructor__header-body h1 {
+    text-align: center;
+    color: #ffffff;
+ }
+.constructor__header-ex {
+    padding: 20px;
+    border: 5px solid purple;
+    box-shadow: 0px 0px 15px rgb(255, 255, 255), 0px 0px 25px rgb(134, 29, 175);
+    border-radius: 20px;
+ }
+
+
+main {
+    width: 100%;
+    min-height: 100vh;
+}
+.constructor__wrapper { }
+.constructor__body {
+    margin-top: 50px;
+ }
+.constructor__list {
+    width: 50%;
+    height: 100%;
+    column-count: 4;
+    text-decoration: none;
+    list-style-type: none;
+ }
+.constructor__list img {
+    border: 3px solid purple;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+ }
+.constructor__preview {
+    width: 100%;
+    height: 100%;
+ }
