@@ -5,7 +5,7 @@
     
 }
 
-@media (max-width: 1023px)
+@media (max-width: 1024px)
 {
      .mnu-top {
         display: flex;
@@ -30,6 +30,9 @@
     {
         header {
             position: initial;
+        }
+        .intro {
+            background-image: url('../img/contacts/contacts-info-bg.jpg')
         }
         .form {
             max-width: 100%;
