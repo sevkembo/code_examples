@@ -1,0 +1,111 @@
+@media (max-width: 767px) {
+    body {
+        background-image: url('../img/bg.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    body .container {
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    body .block-content {
+        max-width: 100%;
+        background: none;
+    }
+    .block-img {
+        display: none;
+    }
+    .container-fluid {
+        max-width: 100%;
+        min-height: 0;
+    }
+    .container-mobile {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    .nav__logo {
+        display: none;
+    }
+    .nav__logo-mobile {
+        display: block;
+    }
+    .block-content {
+        max-width: 100%;
+    }
+    .nav {
+        background-color: white;
+        justify-content: space-between;
+        width: 100%;
+        padding: 21px 20px 21px 20px;
+    }
+    .nav__content {
+
+    }
+
+    .main__form-item .submit-btn {
+        margin-left: -40px;
+        margin-right: 0;
+    }
+    .main__form-item .submit-btn i {
+        padding-right: 0;
+    }
+    
+    .nav__list-item {
+        margin-right: 20px;
+        padding: 0;
+        font-size: 14px;
+    }
+    .main {
+        padding: 0;
+        margin: 0;
+    }
+    .main__title {
+        margin: 0;
+    }
+    h1 {
+        font-size: 24px;
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .main__subtitle {
+        text-align: justify;
+        font-size: 14px;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .big {
+        width: 100%;
+        margin-left: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .main__form-item {
+        margin-bottom: 20px;
+    }
+    hr {
+        margin-bottom: 20px;
+    }
+    .footer {
+        margin: 0;
+        background: none;
+        padding-bottom: 30px;
+    }
+    .main__form-item .email {
+        height: 60px;
+        padding: 18px;
+    }
+    .main__img {
+        padding-top: 30px;
+        margin-bottom: 0;
+    }
+    .indexLink {
+        border: none;
+        top: 35px;
+        left: 65px;
+        padding: 0;
+    }  
